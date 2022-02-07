@@ -40,7 +40,7 @@ function checkData(productId,productName, productPrice){
         alert("Product Id should be integer");
     }
     console.log(typeof(productName))
-    if(!typeof(productName) =='string'){
+    if(!isNaN(productName)){
         flag=1;
         alert("Product Name should be String")
     }
