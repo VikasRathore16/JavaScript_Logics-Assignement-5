@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+        </div>
+        <div class="main">
+            <div class="details">
+            <dv class="col">
+                <label for="Product Id" class="row">Product Id</label>
+                
+                <label for="Product Name" class="row" >Product Name</label>
+                
+                <label for="Product Price" class="row">Product Price</label>
+        </dv>
+            <div class="col">
+                <input type="text" id="productId" required>
+                <input type="text" id="productName" required>
+                <input type="text" id="productPrice" required>
+            </div>
+            
+            </div>
+            <div class="btn">
+            <button id="Add_product" onclick=products()>Add Product</button>
+            </div>
+            <div class="products">
+                <table id="mytable">
+                    <tr>
+                      <th>Product Id</th>
+                      <th>Product Name</th>
+                      <th>Product Price</th>
+                    </tr>
+                    <tr>
+                      <td id="resultProductId"></td>
+                      <td id="resultProductName"></td>
+                      <td id="resultProductPrice"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+<script rel="text/javascript"  src="script.js"></script>
+</html>
