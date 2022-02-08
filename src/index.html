@@ -28,7 +28,8 @@
             
             </div>
             <div class="btn">
-            <button id="Add_product" onclick=products()>Add Product</button>
+            <button id="addProduct" onclick=addProducts()>Add Product</button>
+            <button id="updateProduct" onclick=updateProduct()>Update Product</button>
             </div>
             <div class="products">
                 <table id="mytable">
@@ -36,11 +37,13 @@
                       <th>Product Id</th>
                       <th>Product Name</th>
                       <th>Product Price</th>
+                      <th>Edit Product</th>
                     </tr>
                     <tr>
                       <td id="resultProductId"></td>
                       <td id="resultProductName"></td>
                       <td id="resultProductPrice"></td>
+                      <td id="editProduct"></td>
                     </tr>
                 </table>
             </div>
